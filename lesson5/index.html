@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form id= "form" action="?">
+            <label>Повне ім'я
+                <input type="text" name="subject" placeholder="Enter your name" required></label>
+            <br>
+            <br>
+
+        
+
+            <label>Email
+                <input type="email" name="Email" placeholder="Enter your Email" required></label>
+                <br>
+                <br>
+
+
+                <label>Пароль
+                    <input type="password" name="password" minlength="8" required >
+                </label>
+                <br>
+                <br>
+
+
+                <label>Пароль ще раз
+                    <input type="password" name="password" minlength="8" required >
+                </label>
+                <br>
+                <br>
+
+    
+                <label>Стать
+                    
+                    <input id="svm" type="radio" name="sex" value="M" required>
+                     <label for="svm">M</label>
+
+                <input id="svf" type="radio" name="sex" value="F">
+                     <label for="svf">F</label>
+                    
+                    </label>
+    
+                <br>
+                <br>
+
+        
+            <label>Вік
+                <input type="number" placeholder="Enter yuor age" min ="18" required>
+            </label>
+            <br>
+            <br>
+
+            <label for="course">Курс:</label>
+
+                <select name="course" id="course">
+                    <option value="">--Please choose a course--</option>
+                    <option value="Front-End">Front-End</option>
+                    <option value="Back-End">Back-End</option>
+                    <option value="Project Management">Project Management</option>
+                    <option value="QA Manual">QA Manual</option>
+                </select>
+                <br>
+                <br>
+
+
+
+                <label for="ta">Повна адреса</label>
+                    <textarea id ="ta" name="address" required></textarea>
+            <br>
+            <br>
+
+
+            <label>
+                    <input type="checkbox" name="agree" value="ok"> 
+                    <small>Я погоджуюсь з обробкою персональних даних
+                    </small> 
+                </label>
+            <br>
+            <br>
+
+
+            <button type="reset">Reset</button>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
