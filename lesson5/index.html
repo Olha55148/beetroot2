@@ -23,7 +23,7 @@
 
 
                 <label>Пароль
-                    <input type="password" name="password" minlength="8" required >
+                    <input type="password" name="password" minlength="8"  required>
                 </label>
                 <br>
                 <br>
@@ -38,11 +38,11 @@
     
                 <label>Стать
                     
-                    <input id="svm" type="radio" name="sex" value="M" required>
-                     <label for="svm">M</label>
+                    <input id="svm" type="radio" name="sex" value="M">
+                     <label for="svm">Чоловіча</label>
 
-                <input id="svf" type="radio" name="sex" value="F">
-                     <label for="svf">F</label>
+                <input id="svf" type="radio" name="sex" value="F" checked required>
+                     <label for="svf">Жіноча</label>
                     
                     </label>
     
@@ -51,17 +51,13 @@
 
         
             <label>Вік
-                <input type="number" placeholder="Enter your age" min ="18" required>
+                <input type="number" placeholder="Enter your age" min ="18" name="age" required>
             </label>
             <br>
             <br>
 
 
-            <label>телефон
-                <input type="tel" placeholder="xxx-xxx-xx-xx" min ="10"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-            </label>
-            <br>
-            <br>
+           
 
             <label for="course">Курс:</label>
 
