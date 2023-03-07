@@ -31,13 +31,12 @@ body {
 .name-data {
     display: flex;
     justify-content: space-between;
-    position: absolute;
     padding-left: 20px;
     padding-right: 20px;
     color: #E0E0E0;
     font-family: 'Roboto';
     font-size: 20px;
-  
+    align-items: stretch;  
 }
 
 .data {
