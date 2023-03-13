@@ -2,7 +2,8 @@
 @import url(./assets/fonts/Francois_One/stylesheet.css);
 @import url(./assets/fonts/Farro/stylesheet.css);
 @import url(./assets/fonts/PT_Sans/stylesheet.css);
-@import url(./assets/fonts/webfontkit-20230308-191756/stylesheet.css);
+@import url(./assets/fonts/Farro/stylesheet.css);
+@import url(./assets/fonts/Staatliches/stylesheet.css);
 
 body {
     box-sizing: border-box;
@@ -113,7 +114,7 @@ body {
     
 }
 .background {
-    background-color: grey;
+    background-color: #DADADA;
 }
 
 .header-chapter3 {
