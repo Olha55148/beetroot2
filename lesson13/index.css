@@ -1,0 +1,212 @@
+@import url(./styles/resets.css);
+@import url(./assets/fonts/Francois_One/stylesheet.css);
+@import url(./assets/fonts/Farro/stylesheet.css);
+@import url(./assets/fonts/PT_Sans/stylesheet.css);
+@import url(./assets/fonts/Farro/stylesheet.css);
+@import url(./assets/fonts/Staatliches/stylesheet.css);
+
+body {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main {
+    display: flex;
+    margin-top: 150px;
+    
+}
+.big-picture {
+    position: fixed;
+    top: 150px;
+    left: 812px;
+    z-index: -1;
+}
+
+aside {
+    width: 415px;
+    
+}
+article {
+    width: 785px;
+    position: sticky;
+    z-index: -1;
+    top: 100px;
+}
+.side-bar {
+    width:385px;
+    position: sticky;
+    top: 76px;
+    
+}
+/**---new added--*/
+.sb-section {
+    width: 365px;
+    height: 58px;
+}
+.sb-p {
+    font: 400 36px/48px 'Francois One', sans-serif;
+    font-style: Light;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.side-bar>.sb-section:not(:first-of-type)  {
+    margin-top: 70px;
+}
+/*--new added--*/
+/*--header--*/
+
+.header-main {
+    display: flex;
+    margin-top: 13px;
+    margin-bottom: 86px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.navigation {
+    display: flex;
+    padding-top: 13px;
+    padding-left: 50px;
+    font: 400 22px 'Staatliches', sans-serif;
+    justify-content: space-between;
+    width: 261px;
+    padding-right: 601px;
+}
+
+.eng {
+    font: 600 16px 'Tourney', sans-serif;
+    padding-top: 16px;
+    color: #000000;
+}
+
+
+.header-main img {
+    color: #1A1A1A;
+}
+
+.header-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-link:visited {
+    color: #000000;
+    
+}
+/*--sections--*/
+.main-hr {
+    Width: 100px;
+Height: 8px;
+background-color: #000000;
+margin-bottom: 20px;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+
+.header-chapter {
+    width: 344px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.header-chapter h1 {
+    width: 234px;
+    font: 400 36px/48px 'Francois One', sans-serif;
+}
+
+.header-chapter span,
+.header-chapter2 span,
+.header-chapter3 span,
+.header-chapter4 span
+{
+    width: 100px;
+    font: 300 30px/30px 'Farro', sans-serif;
+    margin-left: 10px;
+    padding-top: 0px;
+    font-style: Light;
+}
+.text {
+    
+    font: 400 28px/48px 'PT Sans', sans-serif;
+    font-style: Light;
+}
+.chapter1 {
+    margin-bottom: 70px;
+}
+
+.chapter3 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.chapter4 {
+    margin-bottom: 90px;
+}
+
+.header-chapter2 {
+    width: 420px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; 
+}
+.header-chapter2 h1 {
+    width: 310px;
+    font: 400 36px/48px 'Francois One', sans-serif;
+}
+.line {
+    text-decoration: underline;
+}
+.italic {
+    font-family: 'PT Sans';
+    font-style: italic;
+}
+.bolt {
+    font-weight: 700;
+    
+}
+.background {
+    background-color: #DADADA;
+}
+
+.header-chapter3 {
+    width: 477px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; 
+}
+.header-chapter3 h1 {
+    width: 367px;
+    font: 400 36px/48px 'Francois One', sans-serif;
+}
+
+.text-chapter3>p:not(:first-of-type)  {
+    margin-top: 40px;
+}
+
+.header-chapter4 {
+    width: 465px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; 
+}
+.header-chapter4 h1 {
+    width: 355px;
+    font: 400 36px/48px 'Francois One', sans-serif;
+}
+.text-chapter4 p:first-of-type {
+    margin-bottom: 40px;
+}
+
+
+
+
