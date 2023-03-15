@@ -1,0 +1,186 @@
+@import url(./styles/resets.css);
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Inter&family=Tourney:wght@600&display=swap');
+@import url(./assets/fonts/Roboto/);
+
+body {
+  box-sizing: border-box;
+  text-decoration: none;
+  position: relative;
+  background-color: #969696;
+}
+
+.name,
+.email,
+.radio-button-male,
+.radio-button-female,
+.country-city,
+.btn-sing-up .load {
+  display: inline-block;
+}
+
+.wrapper::backdrop {
+
+  background: rgba(255, 0, 0, 0.25);
+
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+
+  border: 1px solid;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+
+  background-color: #FFFFFF;
+}
+
+.wrapper:hover {
+  filter: drop-shadow(0 0 0.75rem grey);
+}
+
+.header-main {
+  font: 500 24px/32px 'Roboto-medium', sans-serif;
+  font-style: normal;
+  width: 278px;
+  height: 32px;
+  color: #1C1C1C;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type=file] {
+  width: 138px;
+  height: 30px;
+  border-radius: 6px;
+
+}
+
+
+input[type="file"]:before {
+  background: url(./assets/icon/Photo\ Camera.svg) no-repeat 115px;
+
+  content: attr(placeholder);
+  visibility: visible;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 138px;
+  height: 30px;
+  /* Add here your design... */
+  line-height: 16px;
+  color: rgba(0, 0, 0, .3);
+  background-color: #fff;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input[type="file"]:after {
+  background: url(./assets/icon/Photo\ Camera.svg) no-repeat 3px 1px;
+  visibility: visible;
+  position: absolute;
+  margin-top: 11px;
+  right: 8px;
+}
+
+
+.foto {
+  display: flex;
+}
+
+.load {
+  margin-top: 11px;
+  margin-left: 20px;
+
+}
+
+.load p {
+  font: 400 13px/18px 'Roboto-regular', sans-serif;
+  font-style: normal;
+  max-height: 18px;
+  color: #969696;
+  max-width: 141px;
+  letter-spacing: -0.1px;
+  margin-top: 9px;
+}
+
+.ava {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.btn-foto {
+  width: 29px;
+  height: 29px;
+  background-color: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+.div-area {
+  width: 500px;
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.input-field {
+  width: 239px;
+  margin-top: 7px;
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid #E4E4E4;
+}
+.email {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+
+.label {
+  font: 400 15/22px;
+  font-family: 'Roboto-regular', sans-serif;
+  font-style: normal;
+  max-height: 22px;
+  color: #545454;
+}
+
+.input-field:hover {
+  background-color: #007BFF .5;
+
+  border: 1px solid #007BFF;
+}
+.phone {
+  margin-left: 10px;
+}
+.btn-sing-up {
+  border: 1px solid #E4E4E4;
+  padding: 8px 10px;
+  background-color: #007BFF;
+  width: 150px;
+  height: 38px;
+  border-radius: 6px;
+  margin-bottom: 104px;
+  }
+  .btn-sing-up:hover {
+      background-color: #E4E4E4;
+      color: #007BFF;
+  }
+  .btn-sing-up span {
+      font: 500 15px/22px 'Roboto-medium', sans-serif;
+      font-style: normal;
+      height: 22px;
+      color: #FFFFFF;
+  }
+

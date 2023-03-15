@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_form-two.css">
+
+    <title>second-form</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header-main">
+            Profile
+        </header>
+        <main>
+            <section>
+                <form id="form" action="?">
+                    <div class="foto">
+                        <img class="ava" src="./assets/icon/Bali2.png" alt="ava"> 
+                        <div class="load">
+                            <input id="file" name="file" type="file" multiple/>
+                    
+                            <p>Up to 1 MB (300x300px)</p>                         
+                        </div>
+                        <button class="btn-foto" type="reset"><img src="./assets/icon/🔹 Icon-reset.svg" alt=""></button>
+                    </div>
+                    <div class="div-area">
+                        <div class="name">
+                            <label for="name" class="label">Name</label>
+                            <input type="text" name="name" id="name" class="fisr-input input-field">
+                        </div>
+                        <div class="email">
+                            <label for="email" class="label">Email</label>
+                            <input type="email" name="email" id="email" class="input-field">
+                        </div>
+                    </div>
+
+                    <div class="div-area">
+                        <div class="country-city">
+                            <label for="country" class="label">Country</label>
+
+                            <select class="input-field" name="country" id="country">
+                                
+                                <option value="USA">USA</option>
+                                <option value="Ukraine">Ukraine</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="city" class="label">City</label>
+                            <input type="text" name="city" id="city" class="input-field">
+                        </div>
+                    </div>
+
+
+                    <div class="div-area">
+                        <div class="zip">
+                            <label for="zip" class="label">Zip Code</label>
+                            <input type="text" name="name" id="zip" class="input-field">
+                        </div>
+                        <div class="phone">
+                            <label for="phone" class="label">Phone number</label>
+                            <input type="phone" name="phone" id="phone" class="input-field">
+                        </div>
+                    </div>
+                    <button class="btn-sing-up" type="submit"><span>Update</span></button>
+
+                    
+                </form>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
