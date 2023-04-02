@@ -1,0 +1,95 @@
+@use "./variables";
+
+@mixin borderWithBackground($bgColor) {
+  border: 1px solid $color-red;
+  background-color: $bgColor;
+}
+
+@mixin blockFonts($size, $color, $family) {
+  font-size: $size;
+  color: $color;
+  font-family: $family;
+}
+
+@mixin heading2 {
+  font-size: 36px;
+  color: $color-white;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: $font-family-aleo;
+}
+
+@mixin heading3 {
+  font-size: 24px;
+  color: $color-white;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: $font-family-bolt;
+  letter-spacing: 0.1em;
+
+}
+
+@mixin heading5 {
+  font-size: 20px;
+  color: $color-white;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: $font-family-regular;
+}
+
+@mixin heading6 {
+  font-size: 20px;
+  color: $color-white;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: $font-family-light;
+  letter-spacing: 0.1px;
+}
+
+@mixin body2 {
+  font-size: 16px;
+  color: $color-white;
+  line-height: 28px;
+  font-weight: 300;
+  font-family: $font-family-light;
+  letter-spacing: 0.1em;
+}
+@mixin body1 {
+  font-size: 14px;
+  color: $color-white;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: $font-family-regular;
+  letter-spacing: 0.2em;
+} 
+
+@mixin why-btn {
+  cursor: pointer;
+  align-items: center;
+  width: 213px;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: 0px;
+  background-color: $color-accent;
+  border: none;
+  padding: 20px 32px;
+
+  &:hover {
+    opacity: 0.3;
+  }
+
+  span {
+    @include blockFonts(16px, $color-white, $font-family-aleo);
+
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+
+  }
+}
+
+
+
+
+
+

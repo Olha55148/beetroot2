@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/all.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css//regular.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d038c3bb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/_humburger.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" type="png" href="./assets/icon/favicon.png"/>
+    <title>Exam#1</title>
+</head>
+
+<body>
+    
+    <div class="wrapper-header">
+        <header class="header">
+            <h1 class="header__h1">BHROMAON</h1>
+            <p class="header__p">Safe Travel Anywhere</p>
+            <form class="search-form" action="/action_page.php">
+                <div class="search-form__div">
+                    <input class="search-form__div__input" type="search" placeholder="Search Your Travel Destination"
+                        name="search2">
+                    <button class="btn" type="submit">
+                        <i class="fa fa-search"></i><span>SEARCH</span></button>
+                </div>
+            </form>
+            <div class="scroll-down">
+                <a class="scroll-down__link" href="#">Scroll Down</a>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </header>
+    </div>
+
+    <div class="wrapper-nav">
+        <section class="navigation">
+            <h3 class="navigation__h3">
+                BHROMAON
+            </h3>
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a class="navbar__link" href="#">WHO WE ARE</a>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="#">WHAT WE DO</a>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="#">TRAVEL WITH US</a>
+                    </li>
+                    <li>
+                        <a class="navbar__link" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="header-hamburger-bar"></span>
+                <span class="header-hamburger-bar"></span>
+                <span class="header-hamburger-bar"></span>
+            </div>
+
+            <script>
+                const hamburger = document.querySelector(".hamburger");
+                const navMenu = document.querySelector(".navbar");
+
+                hamburger.addEventListener("click", () => {
+                    hamburger.classList.toggle("active");
+                    navMenu.classList.toggle("active");
+                });
+
+
+                
+            </script>
+
+        </section>
+    </div>
+
+    <div class="wrapper-why">
+        <section class="why">
+            <div class="why__container">
+                <div class="why__container__content">
+                    <h2 class="heading2">
+                        Why Choose Us
+                    </h2>
+                    <p class="body2">
+                        Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of
+                        the moment, so blinded by desire, that they cannot foresee
+                        <br>
+                        <br>
+                        Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so
+                        blinded by desire, that.
+                    </p>
+                    <button class="why-btn" type="submit"><span>EXPLORE PLACES</span></button>
+                </div>
+                <div class="why__container__img">
+                    <img class="why-img1" src="./assets/img/S3_Image_1.png" alt="">
+                    <img class="why-img2" src="./assets/img/S3_Image_2.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper-steps">
+        <section class="steps">
+            <div class="steps__container">
+                <div class="steps__container__icon-search">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <h2 class="heading2">
+                        Search Places
+                    </h2>
+                </div>
+                <div class="steps__container__icon-circle">
+                    <i class="fa-sharp fa-regular fa-circle-check"></i>
+                    <h2 class="heading2">
+                        Select Places
+                    </h2>
+                </div>
+                <div class="steps__container__icon-up">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <h2 class="heading2">
+                        Book & Enjoy
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="wrapper-books-five">
+        <section class="books-five">
+            <div class="books-five__container">
+                <div class="books-five__container__content">
+                    <h6 class="heading6">
+                        Spain
+                    </h6>
+                    <h5 class="heading5">
+                        GRAND SPAIN MADRID
+                    </h5>
+                    <p class="body2">
+                        But I must explain to you how all this mistaken idea of account to denouncing
+                        pleasure and praising pain was account born and I account will give you a complete account of
+                        the system
+                    </p>
+                    <button class="books-five-btn" type="submit"><span>BOOK NOW</span></button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="wrapper-books-six">
+        <section class="books-six">
+            <div class="books-six__container">
+                <div class="books-six__container__content">
+                    <h6 class="heading6">
+                        Spain
+                    </h6>
+                    <h5 class="heading5">
+                        GRAND SPAIN MADRID
+                    </h5>
+                    <p class="body2">
+                        But I must explain to you how all this mistaken idea of account to denouncing
+                        pleasure and praising pain was account born and I account will give you a complete account of
+                        the system
+                    </p>
+                    <button class="books-six-btn" type="submit"><span>BOOK NOW</span></button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="wrapper-what">
+        <section class="what">
+            <h2 class="what__h2">
+                What Our Tourists Say
+            </h2>
+            <div class="what__container">
+                <img class="what__container__img" src="./assets/img/S7_Image_1.png" alt="#">
+                <div class="what__container__content">
+                    <h5 class="what-h5">
+                        SAM SUMON
+                    </h5>
+                    <div class="text-icon">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="what-p">
+                            But I must explain to you how all this mistaken
+                            idea of account to denouncinpleasure and praising pain
+                            But I must explain to you how all this mistaken idea of
+                            account to nai denouncing pleasure and praising pain was account
+                            born and I account will give you a complete account of the system
+                            was account born and I account will give you a nai the complete account of the system
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="wrapper-footer">
+        <section class="footer">
+            <h3 class="footer__h3">
+                BHROMAON
+            </h3>
+            <p class="footer__p">
+                Safe Travel Anywhere
+            </p>
+            <div class="footer__icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

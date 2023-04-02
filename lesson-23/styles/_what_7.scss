@@ -1,0 +1,165 @@
+.wrapper-what {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 680px;
+    height: 100vh;
+    padding: 0 0px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    @include xxl {
+        max-height: 708px;
+    }
+
+    @include xl {
+        max-height: 736px;
+    }
+
+    @include md {
+        max-height: 924px;
+    }
+
+    @include sm {
+        max-height: 980px;
+    }
+}
+
+.what {
+    background-image: url(../assets/img/Section7.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 680px;
+    text-align: center;
+    margin-top: 0px;
+
+    .what__h2 {
+        @include heading2;
+        margin-top: 0px;
+
+        display: inline-block;
+        width: 375px;
+        padding-bottom: 60px;
+        margin-bottom: 0px;
+        padding-top: 120px;
+     @include md {
+        padding-top: 60px;
+    }
+}
+   
+
+    &__container {
+        display: flex;
+        margin: 0 auto;
+        padding: 0px 300px;
+        max-height: 100vh;
+
+        @include xxl {
+            padding: 0px 110px;
+        }
+
+        @include xl {
+            padding: 0px 32px;
+        }
+
+        @include md {
+            flex-direction: column;
+            padding: 0px 24px;
+        }
+        @include sm {
+            padding: 0px 18px;
+        }
+
+
+        &__img {
+            @include xxl {
+                max-width: 380px;
+                max-height: 308px;
+            }
+
+            @include xl {
+                max-width: 320px;
+                max-height: 336px;
+            }
+
+            @include md {
+                max-width: 720px;
+                max-height: 336px;
+            }
+            @include sm {
+                max-width: 540px;
+                max-height: 336px;
+            }
+        }
+
+        &__content {
+            background-color: $color-dark-grey;
+            width: 885px;
+            display: inline-block;
+            text-align: left;
+            padding-left: 60px;
+            padding-right: 65px;
+
+            @include xxl {
+                width: 760px;
+            }
+
+            @include xl {
+                max-width: 640px;
+                width: 100%;
+            }
+
+            @include md {
+                max-width: 720px;
+                width: 100%;
+            }
+            @include sm {
+                max-width: 540px;
+            }
+
+
+
+            .what-h5 {
+                @include heading5;
+                display: inline-block;
+                margin-top: 48px;
+                margin-bottom: 16px;
+            }
+
+            .text-icon {
+                display: flex;
+
+                .fa-quote-left {
+                    color: $color-ccent-darker;
+                    size: 20px;
+                }
+
+                .what-p {
+                    margin-top: 0px;
+                    @include body2;
+                    margin-bottom: 48px;
+                    height: 140px;
+                    height: 100%;
+                }
+            }
+        }
+
+    }
+    @include xxl {
+        height: 708px;
+    }
+
+    @include xl {
+    height: 736px;
+    }
+
+    @include md {
+        height: 924px;
+    }
+
+    @include sm {
+        height: 980px;
+    }
+    
+}

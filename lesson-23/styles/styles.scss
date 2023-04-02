@@ -1,0 +1,21 @@
+@import './resets';
+@import './fonts';
+@import './variables';
+@import "./mixins";
+@import "./responsive";
+@import "./header_1";
+@import "./nav_2";
+@import "./why_3";
+@import "./steps_4";
+@import "./books_5";
+@import "./books_6";
+@import "./what_7";
+@import "./footer_8";
+
+
+* {
+    transition: all .1s ease-in;
+    box-sizing: border-box;
+}
+
+
