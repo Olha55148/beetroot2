@@ -1,5 +1,4 @@
 .wrapper-what {
-    max-width: 1920px;
     width: 100%;
     max-height: 680px;
     height: 100vh;
@@ -7,6 +6,9 @@
     margin: 0 auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    background-image: url(../assets/img/Section7.png);
+    background-position: center;
+    background-size: cover;
 
     @include xxl {
         max-height: 708px;
@@ -26,13 +28,13 @@
 }
 
 .what {
-    background-image: url(../assets/img/Section7.png);
-    background-position: center;
-    background-size: cover;
+    max-width: 1320px;
     width: 100%;
-    height: 680px;
+    max-height: 680px;
     text-align: center;
     margin-top: 0px;
+    height: 100%;
+    margin: 0 auto;
 
     .what__h2 {
         @include heading2;
@@ -52,8 +54,7 @@
     &__container {
         display: flex;
         margin: 0 auto;
-        padding: 0px 300px;
-        max-height: 100vh;
+        max-height: 680px;
 
         @include xxl {
             padding: 0px 110px;
@@ -75,21 +76,17 @@
         &__img {
             @include xxl {
                 max-width: 380px;
-                max-height: 308px;
             }
 
             @include xl {
                 max-width: 320px;
-                max-height: 336px;
             }
 
             @include md {
                 max-width: 720px;
-                max-height: 336px;
             }
             @include sm {
                 max-width: 540px;
-                max-height: 336px;
             }
         }
 

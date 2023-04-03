@@ -1,18 +1,36 @@
 .wrapper-why {
-    max-width: 1920px;
     width: 100%;
     max-height: 704px;
     height: 100vh;
     padding: 0 0px;
     margin: 0 auto;
-}
-
-.why {
     background-image: url(../assets/img/WhyBackground.png);
     background-position: center;
     background-size: cover;
+
+}
+
+.why {
+    max-width: 1320px;
+    margin: 0 auto;
     width: 100%;
+    height: 100%;
     height: 704px;
+    align-content: center;
+    @include xxl {
+        padding: 0px 110px;
+
+    }
+    @include xl {
+        padding: 0px 32px;
+    }
+    @include md {
+        padding: 0px 32px;
+    }
+    @include md {
+        padding: 0px 24px;
+    }
+
 
     &__container {
         width: 100%;
@@ -20,24 +38,23 @@
         height: 100%;
         margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content:space-between;
         margin-left: 0px;
         margin-right: 0px;
 
         @include xxl {
 
-            padding: 0px 110px;
             justify-content: space-between;
 
         }
 
         @include xl {
-            padding: 0px 32px;
+            
             justify-content: space-between;
         }
 
         @include md {
-            padding: 0px 24px;
+          
             flex-direction: column-reverse;
             justify-content: space-between;
 
@@ -58,7 +75,7 @@
         }
 
         &__content {
-            padding: 190px 136px 190px 0px;
+            padding: 190px 0px 190px 0px;
 
             @include xxl {
                 padding: 190px 0px;
@@ -86,11 +103,11 @@
                 margin-bottom: 0px;
 
                 @include xxl {
-                    width: 558px;
+                    max-width: 558px;
                 }
 
                 @include xl {
-                    width: 550px;
+                   max-width: 550px;
                 }
 
                 @include md {
@@ -121,15 +138,24 @@
 
             @include xxl {
                 max-width: 461px;
-                min-height: 456px;
+                width: 100%;
+                height: 456px;
+                height: 100%;
+            }
+            @include xl {
+                max-width: 386px;
+                width: 100%;
+                height: 456px;
+                height: 100%;
             }
 
             @include md {
                 flex-direction: row;
                 max-width: 720px;
-                min-height: 219px;
                 width: 100%;
-                padding: 60px 0px 32px 0px;
+                max-height: 219px;
+                margin-top: 60px;
+                padding: 0px;
                 justify-content: space-between;
             }
 
@@ -140,19 +166,20 @@
                 @include xl {
                     max-width: 350px;
                     width: 100%;
-                    min-height: 220px;
+                    
                 }
 
                 @include md {
 
                     max-width: 348px;
-                    min-height: 219px;
+                    width: 48%;
+align-self: center;                  
                 }
 
                 @include sm {
 
                     max-width: 258px;
-                    min-height: 152px;
+                    width: 48%;
                 }
             }
 
@@ -162,17 +189,18 @@
                 @include xl {
                     max-width: 350px;
                     width: 100%;
-                    min-height: 220px;
+                    
                 }
 
                 @include md {
                     max-width: 348px;
-                    min-height: 219px;
-                }
+                    width: 48%;
+align-self: center;             
+   }
 
                 @include sm {
                     max-width: 258px;
-                    min-height: 152px;
+                    width: 48%;
                 }
             }
         }
