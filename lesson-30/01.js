@@ -33,11 +33,11 @@
 // alert(`${last}${middle}${first}`);
 
 // Max
- let deposit = Number(prompt('Введіть суму вкладу в долларах'));
-const percent = 0.05;
-const month = 2;
-let summPersent = (((deposit * percent) / 12) * 2).toFixed(2);
-alert(`Ваша сума нарахованих відсотків за 2 місяці складатиме ${summPersent}$`)
+//  let deposit = Number(prompt('Введіть суму вкладу в долларах'));
+// const percent = 0.05;
+// const month = 2;
+// let summPersent = (((deposit * percent) / 12) * 2).toFixed(2);
+// alert(`Ваша сума нарахованих відсотків за 2 місяці складатиме ${summPersent}$`);
 
 
 

@@ -18,7 +18,7 @@
 // }
 
 // name12 === "Ivan"
-//  ? console.log("Man") 
+//  ? console.log("Man")
 //  : name12 === "Marta"
 //  ? console.log("Female")
 //  : console.log("Not a name");
@@ -29,7 +29,7 @@
 //         break;
 //         case  "Marta":
 //             console.log("Female");
-//             break;  
+//             break;
 //             default:
 //                 console.log("Not a name");
 //                 break;
@@ -40,7 +40,7 @@
 // const operator = prompt('What is the operator?');
 // let result;
 
-// operator == "+" 
+// operator == "+"
 //  ? result = Number(num1) + Number(num2)
 //  : operator == "-"
 //  ? result = Number(num1) - Number(num2)
