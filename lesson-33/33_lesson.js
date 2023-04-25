@@ -62,6 +62,43 @@
 
 
 
+// const months = ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня'];
+// const dayNames = ["Понедіок", "Вівторок", "Середа", "Четвер", "Пятниця", "Субота",
+//   "Неділя"];
+//   const correctNumber = (number) => number < 10 ? `0${number}` : number;
+// const getUserTime = (dateObj) => {
+//     const date = correctNumber(dateObj.getDate());
+//     const month = months[dateObj. getMonth()];
+//     const day = dayNames[dateObj. getDay()];
+//     const year = 
+//     console.log(month);
+//     return `${date} ${month} ${year} ${hours} : ${minuts} (${day})`
+
+// } 
+// console.log(detUserTime(new Date()))
+
+
+
+
+
+// const date = new Date();
+// const daysOfWeek = ["Понедіок", "Вівторок", "Середа", "Четвер", "Пятниця", "Субота", "Неділя"];
+// const dayOfWeek = daysOfWeek[date.getDay()];
+// const months = ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня'];
+// const months1 = months[date.getMonth()];
+
+// console.log(`${date.getDate()} ${months1} ${date.getFullYear()} ${date.getHours()} : ${date.getMinutes()} ${dayOfWeek}`);
+
+
+
+
+
+
+
+
+    
+
+
 // // 0 означає 01.01.1970 UTC+0
 // let Jan01_1970 = new Date(0);
 // alert( Jan01_1970 );
@@ -112,3 +149,147 @@
 //     }alert(divider);
 //     numerator
 // }
+
+
+// Array.Suturday
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const cars = [1,2,3]
+// const {first} = fruits
+// const second = [...fruits, ...cars]
+
+// console.log (fruits.join('~'))
+
+// const arr = fruits.indexOf(('apple'))
+
+
+
+  
+
+// const numbers = [45, 4, 9, 16, 25];
+// let txt = "";
+// numbers.forEach(myFunction);
+
+
+// function myFunction(value, index, array) {
+    
+//   txt += value + "<br>";
+//   console.log(value)
+// } 
+
+
+
+
+
+
+
+// const plus = (array, index, ...element) => array.splice(index, 0, ...element)
+//    plus(fruits, 0, "Lemon", "Kiwi") ; 
+//  console.log(fruits);
+
+//  const minus = (array, index) => array.splice(index, 1)
+//    minus(fruits, 1) ; 
+//  console.log(fruits);
+
+//  const two = (arr1, arr2) => arr1.concat(arr2)
+//  two(numbers, fruits);
+//  const together = (item, pos) => arr1.concat(arr2)
+//  two(numbers, fruits);
+//  ;
+//  console.log(two(numbers, fruits))
+
+
+
+  
+//   console.log(reduce([1, 2, 3, 4], function(a, b) {
+//     return a + b;
+//   }, 0));
+         
+// function filterRangeInPlace(arr, a, b) {
+
+//     let res = arr.filter(item => (item >= a && item <= b));
+    
+//     arr.splice(0);
+    
+//     for (let i of res) {
+//     arr.push(i);
+//     }
+    
+//     }
+    
+//     let arr = [5, 3, 4, 9, 8, 1];
+    
+//     filterRangeInPlace(arr, 1, 9);
+    
+//     alert( arr );
+
+// const fruits = [45, "Banana", "Orange", "Apple", "Mango"];
+
+// function f(arr) {
+//     arr.forEach(e => {
+//                      console.log(e);
+//             })
+// } f(fruits)
+
+
+// const arr = [1, 2, 3, 4, 5, 12, 7];
+
+// const multiple = arr.map(function(item) {
+//     return item + 2;
+// }).filter(item => {
+//     // Проверяем делится ли текущий элемент массива на 2 без остатка
+//     if (item % 2 === 0) return item;
+// })
+// console.log(multiple); // [4, 6]
+
+
+// const arr = [22, 35, 57, 41, 60];
+
+// const sum = arr.reduce((current, accum) => {
+//     return current + accum;
+// });
+// console.log(sum); // 215
+
+// сумма значень массиву
+// function f2(arr1) {
+//     const sum = arr1.reduce((current, accum) => {
+//             return current + accum;
+//         });
+//         console.log(sum)
+// }f2(arr)
+
+
+// знайти більший єлемент
+
+// let f2 = (arrr) => arrr.sort((a, b) => b - a);
+ 
+//  console.log(f2(arr))
+//  console.log(arr[0]);
+
+
+// додати єлемент за індексом
+
+// function new1(arr3, element, index) {
+// let newArray = arr3.splice(index, 0, element);
+
+//   return newArray;
+// }
+//         console.log(new1(arr, 2, 3));
+//         console.log(arr)
+        
+     
+   
+    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
