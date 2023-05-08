@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/all.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css//regular.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d038c3bb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./widgets_carousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="./widgets_carousel/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./styles/_humburger.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>On Wave</title>
+
+</head>
+
+<body>
+    <div class="wrapper-header">
+        <header class="on-wave">
+            <img class="on-wave__logo" src="./assets/img/logo-red.png" alt="">
+            <nav class="on-wave__navigation">
+                <ul class="on-wave__navigation--navbar">
+                    <li>
+                        <a class="link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Catalog</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">News</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="on-wave__icon">
+                <i class="fa fa-search"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="hamburger">
+                <span class="header-hamburger-bar"></span>
+                <span class="header-hamburger-bar"></span>
+                <span class="header-hamburger-bar"></span>
+            </div>
+            <script>
+                const hamburger = document.querySelector(".hamburger");
+                const navMenu = document.querySelector(".on-wave__navigation--navbar");
+
+                hamburger.addEventListener("click", () => {
+                    hamburger.classList.toggle("active");
+                    navMenu.classList.toggle("active");
+                });
+            </script>
+        </header>
+    </div>
+    <section class="main-section">
+        <div class="first-slide owl-carousel owl-theme owl-loaded owl drag">
+            <div class="item picture1">
+                <div class="picture1__content">
+                    <div class="content-gitars1">
+                        <h1 class="content-title">
+                            DISCOVER NEW OPTIONS
+                        </h1>
+                        <button class="button button_white">
+                            <a href="#">View more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item picture2">
+                <div class="picture2__content">
+                    <div class="content-gitars1">
+                        <h1 class="content-title">
+                            EXPEND YOUR HORIZONS
+                        </h1>
+                        <button class="button button_white">
+                            <a href="#">View more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item picture3">
+                <div class="picture3__content">
+                    <div class="content-gitars3">
+                        <h1 class="content-title">
+                            FIND YOUR OWN STYLE
+                        </h1>
+                        <button class="button button_white">
+                            <a href="#">View more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper-arrivals">
+        <section class="wrapper-arrivals__arrivals">
+            <h2 class="wrapper-arrivals__arrivals--title title">NEW ARRIVAL</h2>
+
+            <div class="owl-nav second-slide owl-carousel owl-theme owl-loaded owl drag">
+
+                <div class="desc">
+                    <div class="status">
+                        IN STOCK
+                    </div>
+                    <div class="item item1 item-general">
+                    </div>
+                    <p class="product-name">Hagstrom Alvar Limited Edition</p>
+                    <p class="product-price">€2.990,00</p>
+                </div>
+
+
+                <div class="desc">
+                    <div class="status">
+                        IN STOCK
+                    </div>
+                    <div class="item item2 item-general">
+                    </div>
+                    <p class="product-name">Hagstrom Tremar Viking Deluxe Cloudy Seas</p>
+                    <p class="product-price">€1.300,00</p>
+                </div>
+
+                <div class="desc">
+                    <div class="status">
+                        IN STOCK
+                    </div>
+                    <div class="item item3 item-general">
+                    </div>
+                    <p class="product-name">Gibson Les Paul Standard 60s</p>
+                    <p class="product-price">€3.749,00</p>
+                </div>
+
+                <div class="desc">
+                    <div class="status">
+                        IN STOCK
+                    </div>
+                    <div class="item item4 item-general">
+                    </div>
+                    <p class="product-name">Suhr Standard Plus Trans Blue Denim</p>
+                    <p class="product-price">€3.449,00</p>
+                </div>
+
+                <div class="desc">
+                    <div class="status">
+                        IN STOCK
+                    </div>
+                    <div class="item item5 item-general">
+                    </div>
+                    <p class="product-name">Fender Telecaster Black Paisley Limited Edition</p>
+                    <p class="product-price">€1.499,00</p>
+                </div>
+
+
+            </div>
+
+            <button class="button button_black">
+                <a href="#">View more</a>
+            </button>
+        </section>
+    </div>
+
+
+    <div class="wrapper-block">
+        <section class="wrapper-block__partners">
+            <h2 class="wrapper-block__partners--title title">OUR PARTNERS</h2>
+            <div class="owl-nav third-slide owl-carousel owl-theme owl-loaded owl drag">
+
+                <div class="item item-p-1 item-p-general">
+                </div>
+
+                <div class="item item-p-2 item-general">
+                </div>
+
+                <div class="item item-p-3 item-general">
+                </div>
+
+                <div class="item item-p-4 item-general">
+                </div>
+
+                <div class="item item-p-5 item-general">
+                </div>
+                <div class="item item-p-6 item-general">
+                </div>
+                <div class="item item-p-7 item-general">
+                </div>
+                <div class="item item-p-8 item-general">
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+    <div class="wrapper-footer">
+        <section class="footer">
+            <div class="footer__general">
+                <div class="general-left">
+                    <img class="left-logo" src="./assets/img/logo-light.png" alt="">
+                    <nav class="left-navigation">
+                        <ul class="left-navbar">
+                            <li>
+                                <a class="link" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Catalog</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">News</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="general-right">
+                    <h2 class="title-right">Contact Us</h2>
+                    <div class="right-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <p>0800 300 4040</p>
+                </div>
+            </div>
+            <p class="copyright">© Copyright 2022. All rights reserved.</p>
+
+        </section>
+
+    </div>
+    <script src="./assets/js/jQuery.js"></script>
+    <script type="text/javascript" src="./widgets_carousel/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>
