@@ -1,0 +1,136 @@
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1170px;
+
+// For than Large device
+$screen-xxl-min: 1360px;
+
+
+$max-min: "max-width";
+
+
+// Small devices
+@mixin sm {
+    @media (#{$max-min}: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md {
+    @media (#{$max-min}: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (#{$max-min}: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (#{$max-min}: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+ 
+ // For than Large device
+ @mixin xxl {
+    @media (#{$max-min}: #{$screen-xxl-min}) {
+        @content;
+    }
+ }
+
+
+// Custom devices
+@mixin cwd($screen) {
+    @media (#{$max-min}: $screen) {
+        @content;
+    }
+}
+
+// Range width devices
+@mixin rwd($min, $max) {
+    @media (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm1-min1: 576px;
+// Small tablets (portrait view)
+$screen-md1-min1: 768px;
+
+// Tablets and small desktops
+$screen-lg1-min1: 992px;
+
+// Large tablets and desktops
+$screen-xl1-min1: 1170px;
+
+// For than Large device
+$screen-xxl1-min1: 1360px;
+
+
+$max-min1: "min-width";
+
+
+// Small devices
+@mixin sm1 {
+    @media (#{$max-min1}: #{$screen-sm1-min1}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md1 {
+    @media (#{$max-min1}: #{$screen-md1-min1}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg1 {
+    @media (#{$max-min1}: #{$screen-lg1-min1}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl1 {
+    @media (#{$max-min1}: #{$screen-xl1-min1}) {
+        @content;
+    }
+ }
+ 
+ // For than Large device
+ @mixin xxl1 {
+    @media (#{$max-min1}: #{$screen-xxl1-min1}) {
+        @content;
+    }
+ }
+
+
+// Custom devices
+@mixin cwd1($screen) {
+    @media (#{$max-min1}: $screen1) {
+        @content;
+    }
+}
+
+// Range width devices
+@mixin rwd1($min1, $max) {
+    @media (min1-width: $min1) and (max-width: $max) {
+        @content;
+    }
+}

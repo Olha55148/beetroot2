@@ -1,0 +1,98 @@
+.footer {
+    background: url('../img/footer/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+
+    .container {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+        img {
+            @include wh(241px, 54px);
+            margin-bottom: 20px;
+        }
+
+        span {
+            font-family: 'Montserrat', 'Arial', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-transform: none;
+            font-size: 14px;
+            color: $white;
+        }
+
+
+    }
+
+    &__contacts {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+
+        .contact__item:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include wh(40px, 40px);
+            border-radius: 50%;
+            border: 1px solid $white;
+
+            .facebook {
+                @include wh(10px, 18px);
+            }
+
+            .twitter {
+                @include wh(16px, 18px);
+            }
+
+            .instagram {
+                @include wh(14px, 18px);
+            }
+        }
+
+        .contact-link:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @include lg1 {
+        min-height: 549px;
+        align-items: center;
+
+        .container {
+            min-width: 800px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &__logo {
+            margin-bottom: 0px;
+
+
+            img {
+                margin-bottom: 41px;
+            }
+        }
+    }
+}

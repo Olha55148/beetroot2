@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css/all.css" rel="stylesheet">
+    <link href="./assets/fonts/fontawesome/css//regular.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d038c3bb8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+        integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="icon" type="image/svg+xml" href="./src/img/favicon.svg">
+    <link rel="icon" type="image/png" href="./src/img/favicon.svg">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="./src/css/_humburger.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <title>Monticello</title>
+</head>
+
+<body>
+    <div class="wrapper-header">
+        <header class="header">
+            <div class="container">
+                <img class="header__logo" src="./src/img/header/Logo.svg" alt="company-logo">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="nav-item">
+                            <a class="nav-item__link" href="#hero">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item__link" href="#projects">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item__link" href="#news">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item__link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <ul class="header__contacts">
+                    <li class="contact__item">
+                        <a class="contact-link" href="#facebook"><img src="./src/img/header/facebook.svg"
+                                alt="facebook">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact-link" href="#twitter"><img src="./src/img/header/twitter.svg"
+                                alt="twitter"></a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact-link" href="#instagramm"><img src="./src/img/header/instagram.svg"
+                                alt="instagramm"></a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="header-hamburger-bar"></span>
+                    <span class="header-hamburger-bar"></span>
+                    <span class="header-hamburger-bar"></span>
+                </div>
+                <script>
+                    const hamburger = document.querySelector(".hamburger");
+                    const navMenu = document.querySelector(".header__nav-list");
+
+                    hamburger.addEventListener("click", () => {
+                        hamburger.classList.toggle("active");
+                        navMenu.classList.toggle("active");
+                    });
+                </script>
+            </div>
+        </header>
+    </div>
+    <div class="wrapper-hero">
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__slider">
+                    <div class="slider-item first-slide">
+                        <h2>simple & modern</h2>
+                        <p>we make the world beautiful everyday</p>
+                    </div>
+                    <div class="slider-item second-slide">
+                        <h2>simple & modern</h2>
+                        <p>we make the world beautiful everyday</p>
+                    </div>
+                    <div class="slider-item third-slide">
+                        <h2>simple & modern</h2>
+                        <p>we make the world beautiful everyday</p>
+                    </div>
+                    <div class="slider-item fourth-slide">
+                        <h2>simple & modern</h2>
+                        <p>we make the world beautiful everyday</p>
+                    </div>
+                    <div class="slider-item fifth-slide">
+                        <h2>simple & modern</h2>
+                        <p>we make the world beautiful everyday</p>
+                    </div>
+                </div>
+                <a class="hero__arrow" href="#projects">
+                    <svg class="hero__arrow-icon">
+                        <use xlink:href="./src/img/header/sprite.svg#hero-arrow-down"></use>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="wrapper-projects">
+        <section class="projects" id="projects">
+            <div class="container">
+                <span class="projects__title">what we do</span>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <img class="project-img parent" src="./src/img/projecrSection/project-poc1.png"
+                            alt="trade-center-build">
+                        <div class="project-info">
+                            <span>one world</span>
+                            <h3>trade center</h3>
+                            <p>Increasing prosperity in our lives can be accomplished by having
+                                the right frame of mind. The truth is, our thoughts are very powerful.
+                            </p>
+                            <a href="#">more details</a>
+                            <div class="project-info__place">
+                                <svg class="icon">
+                                    <use xlink:href="./src/img/header/sprite.svg#project-place-icon"></use>
+                                </svg>
+                                <span>New York City, United States - 1776 feet</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item">
+                        <div class="project-info">
+                            <span>INTERNATIONAL</span>
+                            <h3>COMMERCE CENTRE</h3>
+                            <p>Successful businesses have many things in common, today we’ll look at the big ‘R’
+                                of recognition and how a digital advertising network may help.
+                            </p>
+                            <a href="#">more details</a>
+                            <div class="project-info__place">
+                                <svg class="icon">
+                                    <use xlink:href="./src/img/header/sprite.svg#project-place-icon"></use>
+                                </svg>
+                                <span>Hong Kong - 1588 feet</span>
+                            </div>
+                        </div>
+                        <img class="project-img" src="./src/img/projecrSection/project-pic2.png"
+                            alt="commerce-centre-build">
+                    </li>
+                </ul>
+            </div>
+            <div class="projects-decore-one"></div>
+            <div class="projects-decore-two"></div>
+        </section>
+    </div>
+
+    <div class="wrapper-news">
+        <section class="news" id="news">
+            <div class="container">
+                <span class="news-title">latest news</span>
+                <div class="news-slider">
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-first-build.png" alt="build-one">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>see the unmached beauty of the great.</h3>
+                                <p>Free directories: directories perfect for customers that are searching for...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator1.png"
+                                    alt="first-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>alja brun</h4>
+                                    <span>20 Jan 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-second-build.png" alt="build-two">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>effective advertising pointers.</h3>
+                                <p>Having a home based business is a wonderful asset to your life...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator2.png"
+                                    alt="second-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>dominic rfeeman</h4>
+                                    <span>13 Dec 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-third-build.png" alt="build-three">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>hypnotize yourself into the ghost.</h3>
+                                <p>There are many things that are important to catalog design...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator3.png"
+                                    alt="third-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>alice ward</h4>
+                                    <span>30 Nov 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-first-build.png" alt="build-one">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>see the unmached beauty of the great.</h3>
+                                <p>Free directories: directories perfect for customers that are searching for...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator1.png"
+                                    alt="first-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>alja brun</h4>
+                                    <span>20 Jan 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-second-build.png" alt="build-two">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>effective advertising pointers.</h3>
+                                <p>Having a home based business is a wonderful asset to your life...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator2.png"
+                                    alt="second-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>dominic rfeeman</h4>
+                                    <span>13 Dec 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-slider__item">
+                        <img class="item-img" src="./src/img/news/news-third-build.png" alt="build-three">
+                        <div class="item-text">
+                            <div class="news-info">
+                                <h3>hypnotize yourself into the ghost.</h3>
+                                <p>There are many things that are important to catalog design...</p>
+                            </div>
+                            <div class="news-comentar">
+                                <img class="news-comentar__img" src="./src/img/news/news-comentator3.png"
+                                    alt="third-comemtator">
+                                <div class="news-comentar__text">
+                                    <h4>alice ward</h4>
+                                    <span>30 Nov 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <span class="gallery__title">gallery</span>
+                <div class="gallery__list">
+                    <a class="gallery__item popup" href="./src/img/gallery/img1.jpg">
+                        <img src="./src/img/gallery/img1.jpg" alt="gallery-build1">
+                        <svg class="icon">
+                            <use xlink:href="./src/img/header/sprite.svg#gallery-img-icon"></use>
+                        </svg>
+                    </a>
+                    <a class="gallery__item popup" href="./src/img/gallery/img2.jpg">
+                        <img src="./src/img/gallery/img2.jpg" alt="gallery-build2">
+                        <svg class="icon">
+                            <use xlink:href="./src/img/header/sprite.svg#gallery-img-icon"></use>
+                        </svg>
+                    </a>
+                    <a class="gallery__item popup" href="./src/img/gallery/img3.jpg">
+                        <img src="./src/img/gallery/img3.jpg" alt="gallery-build3">
+                        <svg class="icon">
+                            <use xlink:href="./src/img/header/sprite.svg#gallery-img-icon"></use>
+                        </svg>
+                    </a>
+                    <a class="gallery__item popup" href="./src/img/gallery/img4.jpg">
+                        <img src="./src/img/gallery/img4.jpg" alt="gallery-build4">
+                        <svg class="icon">
+                            <use xlink:href="./src/img/header/sprite.svg#gallery-img-icon"></use>
+                        </svg>
+                    </a>
+                    <a class="gallery__item popup" href="./src/img/gallery/img5.jpg">
+                        <img src="./src/img/gallery/img5.jpg" alt="gallery-build5">
+                        <svg class="icon">
+                            <use xlink:href="./src/img/header/sprite.svg#gallery-img-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+                <a class="gallery__link" href="#">see more</a>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact__place" id="map"></div>
+                <div class="contact__form">
+                    <h2 class="contact__title">get in touch</h2>
+                    <div class="contact__block">
+                        <ul class="left-list">
+                            <li class="left-list__item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Nolan Extensions Suite 670</span>
+                            </li>
+                            <li class="left-list__item">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+001 356-868-2454 </span>
+                            </li>
+                            <li class="left-list__item">
+                                <i class="fa-solid fa-inbox"></i>
+                                <span>montichello@service.com</span>
+                            </li>
+                            <li class="left-list__item">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>From 07:05AM to 19:30PM</span>
+                            </li>
+                        </ul>
+                        <form class="right-form" action="#" method="post">
+                            <div class="right-form__item">
+                                <input type="text" name="name" placeholder="Your Name" required pattern="[A-Za-z]{2,}">
+                                <span class="requirements">The name must have more than two letters</span>
+                            </div>
+                            <div class="right-form__item">
+                                <input type="email" name="email" placeholder="Email" required>
+                                <span class="requirements">Must be valid email adress...</span>
+                            </div>
+                            <button type="submit" name="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="./src/img/header/Logo.svg" alt="company-logo">
+                    <span>Copyrights © 2020 Montichello</span>
+                </div>
+                <ul class="footer__contacts">
+                    <li class="contact__item">
+                        <a class="contact-link" id="facebook" href="#"><img src="./src/img/header/facebook.svg"
+                                alt="facebook">
+                        </a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact-link" id="twitter" href="#"><img src="./src/img/header/twitter.svg"
+                                alt="instagramm"></a>
+                    </li>
+                    <li class="contact__item">
+                        <a class="contact-link" id="instagramm" href="#"><img src="./src/img/header/instagram.svg"
+                                alt="instagramm"></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <div class="top" title="UP">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

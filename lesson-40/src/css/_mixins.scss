@@ -1,0 +1,14 @@
+@use "./variables";
+
+
+@mixin font($fw, $fz, $lh) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+}; 
+@mixin wh($w,  $h) {
+  width: $w;
+  height: $h;
+};
+
+

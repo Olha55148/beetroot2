@@ -1,0 +1,145 @@
+
+.wrapper-hero {
+    max-width: 1630px;
+    margin: 0 auto;
+}
+.hero {
+    margin-top: -117px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        min-width: 100%;
+        height: 100%;
+    }
+
+    &__slider {
+        position: relative;
+        min-width: 100%;
+        height: 100%;
+
+        .slider-item {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+
+            h2 {
+               @extend .hero-text;
+                font-weight: 700;
+                font-size: 80px;
+                letter-spacing: 0.1em;
+                margin-bottom: 10px;
+            }
+
+            p {
+                @extend .hero-text;
+                font-weight: 400;
+                font-size: 14px;
+                max-width: 280px;
+            }
+        }
+
+        .first-slide {
+            &::before {
+                @extend .hero-background-for-slide;
+                background-image: url('../img/heroSection/first-build.jpg');
+            }
+            background: linear-gradient(243.43deg, rgb(126, 90, 255) 16.9%, rgb(85, 183, 255) 83.27%);
+        }
+        
+        .second-slide {
+            &::before {
+                @extend .hero-background-for-slide;
+                background-image: url('../img/heroSection/first-build.jpg');
+                
+            }
+            background: linear-gradient(243.43deg, rgb(47, 42, 214) 16.9%, rgb(85, 183, 255) 83.27%);
+        }
+        
+        .third-slide {
+            &::before {
+                @extend .hero-background-for-slide;
+                background-image: url('../img/heroSection/first-build.jpg');
+            }
+            background: linear-gradient(243.43deg, rgb(96, 83, 195) 16.9%, rgb(85, 183, 255) 83.27%);
+        }
+        
+        .fourth-slide {
+            &::before {
+                @extend .hero-background-for-slide;
+                background-image: url('../img/heroSection/first-build.jpg');
+            }
+            background: linear-gradient(243.43deg, rgb(126, 29, 123) 16.9%, rgb(85, 183, 255) 83.27%);
+        }
+        
+        .fifth-slide {
+            &::before {
+                @extend .hero-background-for-slide;
+                background-image: url('../img/heroSection/first-build.jpg');
+            }
+            background: linear-gradient(243.43deg, rgb(30, 46, 137) 16.9%, rgb(85, 183, 255) 83.27%);
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        z-index: 10;
+    
+        & li {
+            display: block;
+            border: 1px solid $white;
+            border-radius: 50%;
+            margin: 0;
+            @include wh(10px,  10px);
+    
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+    
+            & button:before {
+                content: '';
+                @include wh(100%,  100%);
+                border-radius: 50%;
+                opacity: 1;
+            }
+    
+            &.slick-active button:before {
+                background-color: $white;
+                opacity: 1;
+            }
+        }
+    }
+
+}
+
+.hero__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    @include wh(40px,  40px);
+    border: 1px solid $white;
+    opacity: 0.7;
+    left: calc(50% - 20px);
+    border-radius: 50%;
+   
+}
+.hero__arrow-icon {
+    @include wh(12px,  17px);
+}
