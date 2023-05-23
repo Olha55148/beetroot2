@@ -1,0 +1,25 @@
+
+.blog {
+  margin: 30px 50px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(black, 0.2);
+  background-color: rgba(yellow, 0.1);
+  
+
+  &__title {
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  &__description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+h1 {
+  color: purple;
+}
+
+h2 {
+  color: yellow;
+}
