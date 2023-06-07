@@ -1,0 +1,27 @@
+.wrapper-location{
+    display: flex;
+    &__img1{
+        height: 35px;
+        width: 35px;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        &--street{
+            font-weight: 500;
+    color: rgb(88, 82, 128);
+    margin: 0px;
+    font-size: 1rem;
+        }
+        &--city{
+            font-weight: 500;
+            margin: 2px 0px 0px;
+            font-size: 0.6rem;
+            color: rgb(178, 191, 225);
+        }
+        
+        
+        }
+    
+}

@@ -1,0 +1,17 @@
+{
+    "location1": [
+        {
+            "street": "771 Lost Round",
+            "city": "Sacramento CA",
+            "img":"../src/assets/location1.png",
+            "id": 1
+        },
+        {
+            "street": "1491 Jagged Arbor",
+            "city": "San Antonio TX",
+            "img":"../src/assets/location2.png",
+            "id": 2
+        }
+        
+    ]
+}

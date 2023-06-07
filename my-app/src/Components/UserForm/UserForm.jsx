@@ -42,11 +42,11 @@ const nameOfInput = [
   },
 
 ]
-const deaultFormValue = {
-  firstName: '',
-  lastName: '',
-  age: '',
-}
+// const deaultFormValue = {
+//   firstName: '',
+//   lastName: '',
+//   age: '',
+// }
 const submitHandller = (event) =>{
   event.preventDefault();
 };

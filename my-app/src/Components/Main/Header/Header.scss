@@ -1,0 +1,21 @@
+.main-header {
+    display: flex;
+    padding: 1rem;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    &__profile {
+        height: 2rem;
+    margin: 0px 1rem;
+    cursor: pointer;
+   
+    }
+    &__fa{
+        color: rgb(173, 173, 173);
+    height: 27px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    }
+}

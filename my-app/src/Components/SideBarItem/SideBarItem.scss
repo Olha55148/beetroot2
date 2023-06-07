@@ -1,0 +1,33 @@
+.wrapper-sidebarItem {
+    margin-top: 2rem;
+    width: 100%;
+    color: rgb(170, 165, 165);
+
+    &__row {
+        justify-items: center;
+        border-left: 3px solid transparent;
+        width: 100%;
+        padding: 0.3rem 0.3rem 0.3rem 2rem;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: stretch;
+        margin-bottom: 2rem;
+        transition: all 0.2s ease-in-out 0s;
+
+
+    }
+
+    &__title {
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: rgb(170, 165, 165);
+
+
+        &:hover {
+            color: rgb(88, 82, 128);
+        }
+
+    }
+}

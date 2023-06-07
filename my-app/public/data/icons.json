@@ -1,0 +1,32 @@
+{
+    "icons": [
+        {
+            "title": "Home",
+            "id": 1,
+            "icon": "home"
+           
+        },
+        {
+            "title": "Deposits",
+            "id": 2,
+            "icon": "beer"
+            
+            
+        },
+        {
+            "title": "Offers",
+            "id": 3,
+            "icon": "beer"
+        },
+        {
+            "title": "Payments",
+            "id": 4,
+            "icon": "beer"
+        },
+        {
+            "title": "Settings",
+            "id": 5,
+            "icon": "beer"
+        }
+    ]
+}
